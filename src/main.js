@@ -12,7 +12,7 @@ export function configure(aurelia) {
   aurelia.use
     .standardConfiguration()
     .feature('resources')
-    .plugin('large-plugin');
+    .plugin('large-plugin', (builder) => builder.boxes(20));
 
   if (environment.debug) {
     aurelia.use.developmentLogging();
