@@ -1,0 +1,7 @@
+{
+  "author": {
+    "name": "aurelia-ui-toolkits"
+  },
+  "main": "dist/amd/index.js",
+  "name": "large-plugin"
+}
